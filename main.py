@@ -20,12 +20,12 @@ def UploadFile(path):
 
 
 if __name__ == "__main__":
-	print("\033[1m\033[91m{}".format(
+	print(
 		  "######################\n"+
 		  "|~~~~~~~~~~~~~~~~~~~~|\n"+
 		  "|       xFILEx       |\n"+
 		  "|~~~~~~~~~~~~~~~~~~~~|\n"+
-		  "######|by xBYTEx|#####\n"))
+		  "######|by xBYTEx|#####\n")
 	while True:
-		path = input("\033[93m{}".format('Путь к файлу: '))
+		path = input('Путь к файлу: ')
 		UploadFile(path)
